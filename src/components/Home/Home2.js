@@ -19,36 +19,23 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I am fascinated by Computer Science and its applications in our daily life
+            I am deeply captivated by the vast realm of <b className="purple">Computer Science</b> and its profound impact on our daily lives. The limitless possibilities it offers continue to intrigue me.
               <br />
-              <br />I am fluent in classics like
+              <br />I possess a strong command over programming languages such as 
               <i>
                 <b className="purple"> Javascript and Java</b>
               </i>
+              {" "}which serve as the foundation for many cutting-edge applications
               <br />
               <br />
-              I am in love with creating scalable &nbsp;
+              My true passion lies in crafting scalable&nbsp;
               <i>
-                <b className="purple">Web Applications</b> and
-                also worked on building{" "}
-                <b className="purple">
-                  Blockchain DApps
-                </b>
+                <b className="purple">Web Applications</b> that can seamlessly adapt to evolving user needs. Additionally, I have had the opportunity to delve into the world of <b className="purple">
+Blockchain Development</b> 
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              To stay at the forefront of technological advancements, I embrace tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Next.js</b>. By harnessing these technologies, I am able to create exceptional products that meet the demands of today's dynamic digital landscape.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

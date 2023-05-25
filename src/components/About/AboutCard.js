@@ -30,7 +30,7 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Believing is the first step to Becoming"{" "}
+            "Believing is the precursor of Becoming"{" "}
           </p>
           <footer className="blockquote-footer">Naman</footer>
         </blockquote>

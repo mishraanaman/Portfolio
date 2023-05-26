@@ -8,7 +8,7 @@ import {
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
-  let date = new Date();
+  //let date = new Date();
   //let year = date.getFullYear();
   return (
     <Container fluid className="footer">

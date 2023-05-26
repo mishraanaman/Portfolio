@@ -35,7 +35,7 @@ Blockchain Development</b>
               </i>
               <br />
               <br />
-              To stay at the forefront of technological advancements, I embrace tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Next.js</b>. By harnessing these technologies, I am able to create exceptional products that meet the demands of today's dynamic digital landscape.
+              To stay at the forefront of technological advancements, I embrace tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Express.js</b>. By harnessing these technologies, I am able to create exceptional products that meet the demands of today's dynamic digital landscape.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

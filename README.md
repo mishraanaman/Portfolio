@@ -1,9 +1,9 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <!-- <a href="https://soumyajit.vercel.app/" target="_blank">soumyajit.tech</a> -->
+  <!-- <a href="https://master--candid-otter-cfbc43.netlify.app"</a> -->
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/readme-img1.png" />
+  <img alt="Demo" src="./Images/readme-img.png" />
 </div>
 
 <br/>
@@ -27,7 +27,7 @@
 
 ## TL;DR
 
-Special credtis to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). I have forked this website to draw inspiration and features.
+Special credits to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). I have forked this website to draw inspiration and features.
 
 ## Built With
 

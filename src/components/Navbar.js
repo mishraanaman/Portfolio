@@ -10,7 +10,7 @@ import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
-  //AiOutlineFundProjectionScreen,
+  AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
 
@@ -69,7 +69,7 @@ const NavBar = ()=> {
               </Nav.Link>
             </Nav.Item>
 {/* {TODO: Create your own project section} */}
-            {/* <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -80,7 +80,7 @@ const NavBar = ()=> {
                 />{" "}
                 Projects
               </Nav.Link>
-            </Nav.Item> */}
+            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link

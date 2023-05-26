@@ -3,7 +3,7 @@
   <a href="https://master--candid-otter-cfbc43.netlify.app"></a>
 </h2>
 <div align="center">
-  <img alt="Demo" src="./Images/Mockup.png" />
+  <img alt="Demo" src="./Images/MOCKUPS.png" />
 </div>
 
 <br/>

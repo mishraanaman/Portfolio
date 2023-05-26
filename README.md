@@ -1,10 +1,10 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <a href="https://master--candid-otter-cfbc43.netlify.app"></a>
+  <a href="https://master--candid-otter-cfbc43.netlify.app">
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/mockups2x.png" />
-</div>
+</div></a>
 
 <br/>
 

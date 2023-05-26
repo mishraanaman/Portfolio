@@ -1,6 +1,6 @@
 <h2 align="center">
   Portfolio Website<br/>
-  <!-- <a href="https://master--candid-otter-cfbc43.netlify.app/" target="_blank">soumyajit.tech</a> -->
+  <!-- <a href="https://master--candid-otter-cfbc43.netlify.app"</a> -->
 </h2>
 <div align="center">
   <img alt="Demo" src="./Images/readme-img1.png" />

@@ -19,7 +19,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I am deeply captivated by the vast realm of <b className="purple">Computer Science</b> and its profound impact on our daily lives. The limitless possibilities it offers continue to intrigue me.
+            I'm captivated by the vast realm of <b className="purple">Technology</b> and its profound impact on our daily lives. The limitless possibilities it offers continue to intrigue me.
               <br />
               <br />I possess a strong command over programming languages such as 
               <i>

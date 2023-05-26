@@ -3,6 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import coconut from "../../Assets/Projects/coconut.png"
+import Youthhub from "../../Assets/Projects/YouthHub.png"
+
+
 
 function Projects() {
   return (
@@ -18,25 +21,25 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={coconut}
+              imgPath={Youthhub}
               isBlog={false}
-              title="Coconut"
-              description="Youtube Clone built using ReactJs and Redux Toolkit. Has features of Searching vidoes from a vast library of Youtube"
+              title="YouthHub"
+              description="Search and Stream vidoes from the original library of Youtube. This web app is a Youtube clone built using ReactJs and Redux Toolkit."
               ghLink="https://github.com/namanmish/Youthhub"
               demoLink="https://chatify-49.web.app/"
             />
           </Col>
 
-          {/* <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={coconut}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
+              title="Coconut"
+              description=" Purchase your favorite ethnic attire for this season. Web App built using ReactJS and Redux Toolkit."
+              ghLink="https://github.com/namanmish/coconut-fashion"
               demoLink="https://blogs.soumya-jit.tech/"
             />
-          </Col> */}
+          </Col>
 {/* 
           <Col md={4} className="project-card">
             <ProjectCard

@@ -27,7 +27,7 @@
 
 ## TL;DR
 
-Special credtis to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). I have forked this website to draw inspiration and features.
+Special credits to [Soumyajit4419](https://github.com/soumyajit4419/Portfolio). I have forked this website to draw inspiration and features.
 
 ## Built With
 

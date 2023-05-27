@@ -39,7 +39,7 @@ Blockchain Development</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt>
+            <Tilt tiltReverse={true} scale={1.15}>
               <img src={myImg} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>

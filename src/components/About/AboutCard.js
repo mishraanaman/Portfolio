@@ -1,6 +1,10 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { FaUmbrellaBeach } from "react-icons/fa";
+import { GiMuscleUp } from "react-icons/gi";
+import { BiCameraMovie } from "react-icons/bi";
+
+
 
 function AboutCard() {
   return (
@@ -19,13 +23,13 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Working Out
+              <GiMuscleUp /> Working Out
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <FaUmbrellaBeach /> Travelling
             </li>
             <li className="about-activity">
-              <ImPointRight /> Watching Movies
+              <BiCameraMovie /> Watching Movies
             </li>
           </ul>
 

@@ -53,7 +53,7 @@ Blockchain Development</b>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/namanmish"
+                  href="https://github.com/mishraanaman"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"

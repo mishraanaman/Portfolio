@@ -38,7 +38,7 @@ const NavBar = ()=> {
     >
       <Container>
         <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" style={{height:"4px"}} />
+          <img src={logo} className="img-fluid logo" alt="brand" style={{height:"4px", width: "2px"}} />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"

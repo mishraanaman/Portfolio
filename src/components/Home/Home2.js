@@ -19,9 +19,8 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            I'm captivated by the vast realm of <b className="purple">Technology</b> and its profound impact on our daily lives. The limitless possibilities it offers continue to intrigue me.
-              <br />
-              <br />I possess a strong command over programming languages such as 
+            I'm captivated by the vast realm of <b className="purple">Technology</b> and its profound impact on our lives.
+              I possess a strong command over 
               <i>
                 <b className="purple"> Javascript and Java</b>
               </i>
@@ -35,7 +34,7 @@ Blockchain Development</b>
               </i>
               <br />
               <br />
-              To stay at the forefront of technological advancements, I embrace tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Express.js</b>. By harnessing these technologies, I am able to create exceptional products that meet the demands of today's dynamic digital landscape.
+              To stay at the forefront of technological advancements, I have embraced tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Express.js</b>.
             </p>
           </Col>
           <Col md={4} className="myAvtar">

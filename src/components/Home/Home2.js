@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/figmaavatar.png";
-import Tilt from "react-parallax-tilt";
+import myImg from "../../Assets/about.png";
 import {
   AiFillGithub,
   AiOutlineTwitter,
@@ -15,32 +14,23 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
-            </h1>
-            <p className="home-about-body">
-            I'm captivated by the vast realm of <b className="purple">Technology</b> and its profound impact on our lives.
-              I possess a strong command over 
-              <i>
-                <b className="purple"> Javascript and Java</b>
-              </i>
-              {" "}which serve as the foundation for many cutting-edge applications
-              <br />
-              <br />
-              My true passion lies in crafting scalable&nbsp;
-              <i>
-                <b className="purple">Web Applications</b> that can seamlessly adapt to evolving user needs. Additionally, I have had the opportunity to delve into the world of <b className="purple">
-Blockchain Development</b> 
-              </i>
-              <br />
-              <br />
-              To stay at the forefront of technological advancements, I have embraced tools like  <b className="purple">Node.js</b> and leverage the power of modern JavaScript libraries and frameworks such as <b className="purple">React.js</b> and <b className="purple">Express.js</b>.
-            </p>
+     <h1 style={{ fontSize: "2.6em" }}>
+  LET ME <span className="purple"> INTRODUCE </span> MYSELF
+</h1>
+<p className="home-about-body">
+Having worked across <b className="purple">cloud, backend, and frontend</b>, I am currently fascinated by the <b className="purple">potential of technology</b> to drive business growth. I believe this happens by solving real-world problems, which motivates me every day.
+<br />
+<br />
+I am also optimistic about the transformative power of <b className="purple">AI and blockchain</b>, and how they can redefine industries and create new opportunities. Exploring these areas fuels my passion for building innovative, future-ready applications.
+  
+  <br />
+</p>
+
+
           </Col>
           <Col md={4} className="myAvtar">
-            <Tilt tiltReverse={true} scale={1.15}>
-              <img src={myImg} className="img-fluid" alt="avatar" />
-            </Tilt>
+            <img src={myImg} className="img-fluid" alt="avatar" />
+
           </Col>
         </Row>
         <Row>

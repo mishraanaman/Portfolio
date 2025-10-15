@@ -1,5 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { FaAws } from "react-icons/fa";
 import {
   DiJavascript1,
   DiReact,
@@ -9,7 +10,8 @@ import {
   DiJava
 } from "react-icons/di";
 import {
-  SiFirebase,
+  SiMongodb,
+  SiApachekafka,
   SiSolidity,
   SiPostgresql,
   SiSpringboot,
@@ -23,6 +25,15 @@ import {
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAws />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMongodb />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiApachekafka />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact/>
       </Col>
@@ -54,13 +65,7 @@ function Techstack() {
         <SiMysql />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
       </Col>
     </Row>
   );

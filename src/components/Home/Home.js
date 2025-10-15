@@ -1,9 +1,10 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import profilepic from "../../Assets/profile-pic.webp";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Tilt from "react-parallax-tilt";
 
 function Home() {
   return (
@@ -20,23 +21,25 @@ function Home() {
                 </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h0 className="heading-name">
                 I'M
                 <strong className="main-name"> NAMAN MISHRA</strong>
-              </h1>
+              </h0>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: 45, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
-                src={homeLogo}
+                <Tilt tiltReverse={true} scale={1.15}>
+                  <img
+                src={profilepic}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "450px" , width:"700px"}}
+                style={{ maxHeight: "400px" , width:"400px", borderRadius: "50%", boxShadow: "0 10px 30px rgba(197, 115, 230, 0.6)",}}
               />
+                </Tilt>
             </Col>
           </Row>
         </Container>

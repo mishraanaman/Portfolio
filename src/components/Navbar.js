@@ -7,7 +7,6 @@ import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
 import {
   AiFillStar,
-  AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
@@ -49,8 +48,7 @@ const NavBar = () => {
             updateExpanded(false);
           }}
         >
-          <AiOutlineHome style={iconStyle} />
-          Home
+          <span style={{ color: "#be6adf", fontSize: "1.5em", fontWeight: "bold" }}>Nm.</span>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -74,7 +72,7 @@ const NavBar = () => {
                 <AiOutlineUser style={iconStyle} /> About
               </Nav.Link>
             </Nav.Item>
-                        <Nav.Item>
+            <Nav.Item>
               <Nav.Link
                 as={Link}
                 to="/certifications"

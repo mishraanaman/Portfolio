@@ -20,14 +20,14 @@ function Home2() {
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-            <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            <h1 className="heading-name">
+              ABOUT <span className="purple"> MYSELF </span> 
             </h1>
             <p className="home-about-body">
-              Having worked across <b className="purple">cloud, backend, and frontend</b>, I am currently fascinated by the <b className="purple">potential of technology</b> to drive business growth. I believe this happens by solving real-world problems, which motivates me every day.
+              Having worked with <b className="purple">Backend and Frontend</b> technologies, I am currently working to drive business growth using<b className="purple"> Cloud Driven Technologies</b>.I believe the key lies in leveraging the right capabilities to solve problems that truly matter.
               <br />
               <br />
-              I am also optimistic about the transformative power of <b className="purple">AI and blockchain</b>, and how they can redefine industries and create new opportunities. Exploring these areas fuels my passion for building innovative, future-ready applications.
+              I am optimistic about the transformative power of <b className="purple">Artificial Intelligence</b> and its capability to create new opportunities. Exploring these domains fuels my passion for building innovative, future-ready applications.
 
               <br />
             </p>

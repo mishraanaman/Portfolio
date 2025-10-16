@@ -15,7 +15,7 @@ import {
   SiPostgresql,
   SiSpringboot,
   SiMysql,
-  SiTypescript,
+  SiOpenai,SiLangchain,SiExpress
 } from "react-icons/si";
 import {
   GrGraphQl
@@ -33,6 +33,18 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiApachekafka />
       </Col>
+       <Col xs={4} md={2} className="tech-icons">
+        <SiOpenai />
+      </Col>
+        <Col xs={4} md={2} className="tech-icons">
+        <SiLangchain />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+         <SiSpringboot />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+         <SiExpress />
+      </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiReact/>
       </Col>
@@ -43,13 +55,7 @@ function Techstack() {
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiTypescript />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
         <DiJava />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-         <SiSpringboot />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiSolidity />

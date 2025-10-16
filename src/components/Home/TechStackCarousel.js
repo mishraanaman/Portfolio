@@ -1,6 +1,6 @@
 import React from "react";
 import Slider from "react-slick";
-import { SiReact, SiMongodb, SiPostgresql, SiApachekafka, SiSpringboot, SiExpress, } from "react-icons/si";
+import { SiReact, SiMongodb, SiPostgresql, SiApachekafka, SiSpringboot, SiExpress, SiRedis, SiDocker } from "react-icons/si";
 import {
   DiNodejs,
   DiGit,
@@ -30,10 +30,12 @@ const TechCarousel = () => {
 
   const techs = [
     <FaAws size={70} color="#b9775bff" />,
+    <SiDocker size={70} color="#5186afff" />,
     <SiSpringboot size={70} color="#697f59ff" />,
     <SiExpress size={70} color="#888888ff" />,
     <SiMongodb size={70} color="#2c522cff" />,
     <SiPostgresql size={70} color="#314d65ff" />,
+    <SiRedis size={70} color="#a34e4cff" />,
     <SiReact size={70} color="#548693ff" />,
     <SiApachekafka size={70} color="#373132ff" />,
     <DiNodejs size={70} color="#658048ff" />,

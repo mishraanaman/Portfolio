@@ -15,8 +15,9 @@ function Toolstack() {
     ];
 
     const boxStyle = {
-        width: "450px",
-        height: "250px",
+        width: "100%",
+        maxWidth: "600px",       // max width for larger screens
+        minHeight: "250px",      // ensure enough height
         display: "flex",
         alignItems: "center",
         padding: "20px 30px", // extra horizontal padding
@@ -38,13 +39,13 @@ function Toolstack() {
         <Container
             style={{
                 display: "grid",
-                gridTemplateColumns: "repeat(2, 1fr)",
+                gridTemplateColumns: "repeat(auto-fit, minmax(300px, 1fr))",
                 justifyContent: "center",
-                gap: "20px",
+                gap: "30px",
             }}
         >
             {techItems.map((item, idx) => (
-                <Tilt tiltReverse={true} scale={1.15}>
+                <Tilt tiltReverse={true} scale={1.15} style={{ width: "100%" }}>
                     <div key={idx} style={boxStyle}>
                         {item.icon}
                         <div style={textStyle}>{item.text}</div>

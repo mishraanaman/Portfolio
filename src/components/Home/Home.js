@@ -14,30 +14,23 @@ function Home() {
         <Container className="home-content">
           <Row>
             <Col md={7} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
-                Namaste!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                🙏
-                </span>
-              </h1>
 
               <h0 className="heading-name">
-                I'M
-                <strong className="main-name"> NAMAN MISHRA</strong>
+                <strong className="main-name"> Naman Mishra</strong>
               </h0>
 
-              <div style={{ padding: 45, textAlign: "left" }}>
+              <div style={{ paddingLeft: 45, textAlign: "left" }}>
                 <Type />
               </div>
             </Col>
 
-            <Col md={5} style={{ paddingBottom: 20 }}>
+            <Col md={5} style={{ paddingBottom: 40, paddingLeft: 50 }}>
                 <Tilt tiltReverse={true} scale={1.15}>
                   <img
                 src={profilepic}
                 alt="home pic"
                 className="img-fluid"
-                style={{ maxHeight: "400px" , width:"400px", borderRadius: "50%", boxShadow: "0 10px 30px rgba(197, 115, 230, 0.6)",}}
+                style={{ maxHeight: "400px" , width:"400px", boxShadow: "0 10px 20px rgba(197, 115, 230, 0.6)",}}
               />
                 </Tilt>
             </Col>

@@ -1,30 +1,36 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/about.png";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import TechStackCarousel from "./TechStackCarousel";
 
 function Home2() {
   return (
     <Container fluid className="home-about-section" id="about">
+      <div style={{ paddingLeft: 45, textAlign: "left" }}>
+        <TechStackCarousel />
+      </div>
       <Container>
         <Row>
           <Col md={8} className="home-about-description">
-     <h1 style={{ fontSize: "2.6em" }}>
-  LET ME <span className="purple"> INTRODUCE </span> MYSELF
-</h1>
-<p className="home-about-body">
-Having worked across <b className="purple">cloud, backend, and frontend</b>, I am currently fascinated by the <b className="purple">potential of technology</b> to drive business growth. I believe this happens by solving real-world problems, which motivates me every day.
-<br />
-<br />
-I am also optimistic about the transformative power of <b className="purple">AI and blockchain</b>, and how they can redefine industries and create new opportunities. Exploring these areas fuels my passion for building innovative, future-ready applications.
-  
-  <br />
-</p>
+            <h1 style={{ fontSize: "2.6em" }}>
+              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+            </h1>
+            <p className="home-about-body">
+              Having worked across <b className="purple">cloud, backend, and frontend</b>, I am currently fascinated by the <b className="purple">potential of technology</b> to drive business growth. I believe this happens by solving real-world problems, which motivates me every day.
+              <br />
+              <br />
+              I am also optimistic about the transformative power of <b className="purple">AI and blockchain</b>, and how they can redefine industries and create new opportunities. Exploring these areas fuels my passion for building innovative, future-ready applications.
+
+              <br />
+            </p>
 
 
           </Col>

@@ -6,8 +6,8 @@ import "slick-carousel/slick/slick-theme.css";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
+import { SiCredly } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 import TechStackCarousel from "./TechStackCarousel";
 
@@ -42,31 +42,8 @@ function Home2() {
         <Row>
           <Col md={12} className="home-about-social">
             <h1>FIND ME ON</h1>
-            <p>
-              Feel free to <span className="purple">connect </span>with me
-            </p>
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/mishraanaman"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiFillGithub />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://twitter.com/reachoutnaman"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
+                <li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/naman-mishra-b82631126/"
                   target="_blank"
@@ -78,12 +55,32 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://instagram.com/mishraanaman"
+                  href="https://github.com/mishraanaman"
                   target="_blank"
                   rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillGithub />
+                </a>
+              </li>
+                            <li className="social-icons">
+                <a
+                  href="https://www.credly.com/users/naman-mishra.02a4094f"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <SiCredly />
+                </a>
+              </li>
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/reachoutnaman"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiOutlineTwitter />
                 </a>
               </li>
             </ul>

@@ -3,8 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import {
   AiFillGithub,
   AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
+import { SiCredly } from "react-icons/si";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -33,16 +33,6 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://twitter.com/reachoutnaman"
-                style={{ color: "white" }}
-                target="_blank" 
-                rel="noopener noreferrer"
-              >
-                <AiOutlineTwitter />
-              </a>
-            </li>
-            <li className="social-icons">
-              <a
                 href="https://www.linkedin.com/in/naman-mishra-b82631126/"
                 style={{ color: "white" }}
                 target="_blank" 
@@ -53,12 +43,22 @@ function Footer() {
             </li>
             <li className="social-icons">
               <a
-                href="https://instagram.com/mishraanaman"
+                href="https://www.credly.com/users/naman-mishra.02a4094f"
                 style={{ color: "white" }}
                 target="_blank" 
                 rel="noopener noreferrer"
               >
-                <AiFillInstagram />
+                <SiCredly />
+              </a>
+            </li>
+                        <li className="social-icons">
+              <a
+                href="https://twitter.com/reachoutnaman"
+                style={{ color: "white" }}
+                target="_blank" 
+                rel="noopener noreferrer"
+              >
+                <AiOutlineTwitter />
               </a>
             </li>
           </ul>

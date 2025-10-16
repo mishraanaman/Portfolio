@@ -3,8 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import profilepic from "../../Assets/profile-pic.webp";
 import LiquidEtherDefault from "../LiquidEtherDefault";
 import Home2 from "./Home2";
-import Type from "./Type";
-import Tilt from "react-parallax-tilt";
+import Type from "./TypeWriter";
 
 function Home() {
   return (
@@ -25,14 +24,12 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 40, paddingLeft: 50 }}>
-                <Tilt tiltReverse={true} scale={1.15}>
                   <img
                 src={profilepic}
                 alt="home pic"
                 className="img-fluid"
                 style={{ maxHeight: "400px" , width:"400px", boxShadow: "0 10px 20px rgba(197, 115, 230, 0.6)",}}
               />
-                </Tilt>
             </Col>
           </Row>
         </Container>

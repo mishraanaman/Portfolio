@@ -11,6 +11,8 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { LiaCertificateSolid } from "react-icons/lia";
+
 
 const iconStyle = { fontSize: "1.2em", marginBottom: "2px", marginRight: "6px" };
 
@@ -72,7 +74,17 @@ const NavBar = () => {
                 <AiOutlineUser style={iconStyle} /> About
               </Nav.Link>
             </Nav.Item>
-            {/* {TODO: Create your own project section} */}
+                        <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/certifications"
+                onClick={() => updateExpanded(false)}
+              >
+                <LiaCertificateSolid style={iconStyle}
+                />{" "}
+                Certifications
+              </Nav.Link>
+            </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}

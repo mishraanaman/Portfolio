@@ -28,7 +28,7 @@ const LiquidEtherDefault = (props) => {
       autoSpeed={0.2}
       autoIntensity={2.2}
       takeoverDuration={0.25}
-      autoResumeDelay={300}
+      autoResumeDelay={30}
       autoRampDuration={0.6}
       {...props} // allow overrides if needed
     />

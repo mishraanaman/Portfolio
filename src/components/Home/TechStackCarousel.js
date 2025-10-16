@@ -29,7 +29,7 @@ const TechCarousel = () => {
   };
 
   const techs = [
-    <FaAws size={70} color="#545457ff" />,
+    <FaAws size={70} color="#b9775bff" />,
     <SiSpringboot size={70} color="#697f59ff" />,
     <SiExpress size={70} color="#888888ff" />,
     <SiMongodb size={70} color="#2c522cff" />,

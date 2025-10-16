@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+img.img-fluid {
+  max-width: 450px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+@media (max-width: 768px) {
+  img.img-fluid {
+    max-width: 250px;   /* smaller for mobile */
+    margin: 0 auto;
+    display: block;
+  }
+}

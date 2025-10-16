@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import logo from "../Assets/Projects/favicon.png";
+import logo from "../Assets/favicon.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { CgGitFork } from "react-icons/cg";
@@ -13,8 +13,9 @@ import {
   AiOutlineUser,
 } from "react-icons/ai";
 
+const iconStyle = { fontSize: "1.2em", marginBottom: "2px", marginRight: "6px" };
 
-const NavBar = ()=> {
+const NavBar = () => {
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
@@ -36,8 +37,19 @@ const NavBar = ()=> {
       className={navColour ? "sticky" : "navbar"}
     >
       <Container>
-        <Navbar.Brand href="/" className="d-flex">
-          <img src={logo} className="img-fluid logo" alt="brand" style={{height:"4px", width: "2px"}} />
+        <Navbar.Brand
+          as={Link}
+          to="/"
+          className="d-flex align-items-center home-btn"
+          onClick={() => {
+            if (window.location.pathname === "/") {
+              window.scrollTo({ top: 0, behavior: "smooth" });
+            }
+            updateExpanded(false);
+          }}
+        >
+          <AiOutlineHome style={iconStyle} />
+          Home
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -51,11 +63,6 @@ const NavBar = ()=> {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto" defaultActiveKey="#home">
-            <Nav.Item>
-              <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <AiOutlineHome style={{ marginBottom: "2px" }} /> Home
-              </Nav.Link>
-            </Nav.Item>
 
             <Nav.Item>
               <Nav.Link
@@ -63,10 +70,10 @@ const NavBar = ()=> {
                 to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
+                <AiOutlineUser style={iconStyle} /> About
               </Nav.Link>
             </Nav.Item>
-{/* {TODO: Create your own project section} */}
+            {/* {TODO: Create your own project section} */}
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -74,12 +81,12 @@ const NavBar = ()=> {
                 onClick={() => updateExpanded(false)}
               >
                 <AiOutlineFundProjectionScreen
-                  style={{ marginBottom: "2px" }}
+                  style={iconStyle}
                 />{" "}
                 Projects
               </Nav.Link>
             </Nav.Item>
-{/* 
+            {/* 
             <Nav.Item>
               <Nav.Link
                 as={Link}

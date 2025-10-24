@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import LiquidEtherDefault from "../LiquidEtherDefault";
-import mmFlix from "../../Assets/Projects/mmflix.png"
-import Youthhub from "../../Assets/Projects/YouthHub.png"
+import mmFlix from "../../Assets/Projects/mmflix.webp"
+import Youthhub from "../../Assets/Projects/Youthhub.webp"
 
 
 
